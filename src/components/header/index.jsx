@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <>
             <div className="container">
-                <header className="d-flex mt-5 align-items-center justify-content-between">
+                <header className="header fixed-top d-flex align-items-center justify-content-between mb-5">
                     {/* Logo */}
                     <Logo />
 

@@ -5,7 +5,7 @@ const Admissions = () => {
     return (
         <div className="admissions">
             <div className="container">
-                <div className="admissions-content">
+                <div data-aos="fade-right" className="admissions-content">
                     <h2 className="admissions-title text-primary">
                         Tuyển sinh
                     </h2>
@@ -21,7 +21,10 @@ const Admissions = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="card admissions-hover">
-                                <div className="card-body p-0 position-relative">
+                                <div
+                                    data-aos="zoom-in"
+                                    className="card-body p-0 position-relative"
+                                >
                                     <div className="admissions-img-wrapper">
                                         <img
                                             src={img1}
@@ -45,7 +48,7 @@ const Admissions = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div data-aos="zoom-in" className="col-md-6">
                             <div className="card w100 admissions-hover">
                                 <div className="card-body p-0 position-relative">
                                     <div className="admissions-img-wrapper">

@@ -31,7 +31,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="hero-content mt-5">
+        <div className="hero-content ">
             <div className="swiper">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide">

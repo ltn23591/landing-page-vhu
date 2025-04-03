@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 100%;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .container,
     .container-lg,
     .container-md,
@@ -26,6 +26,23 @@ body {
 }
 
 /* Header */
+.fixed-top {
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header {
+    margin-bottom: 100px;
+}
 .logo {
     width: 70px;
     height: 70px;
@@ -50,19 +67,22 @@ body {
 
 .img-fluid {
     width: 100%;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
-    object-position: top;
+    object-position: top !important;
 }
 
-.swiper-slide:nth-child(1) .img-fluid {
-    object-position: center;
+/* .swiper-slide:nth-child(1) .img-fluid {
+    object-position: top;
 }
 
 .swiper-slide:nth-child(3) .img-fluid {
     object-position: top;
+} */
+/* Hero */
+.hero-content {
+    margin-top: 100px;
 }
-
 .swiper {
     width: 100%;
     height: 500px;
@@ -71,6 +91,7 @@ body {
 .swiper-slide {
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 .swiper-pagination-bullet {
@@ -527,6 +548,4 @@ body {
     color: #fff;
     padding: 50px 0 20px;
 }
-.intro-iframe{
-    margin-left: 150px;
-}
+

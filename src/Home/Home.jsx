@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Hero from "./Hero/index";
 import Intro from "./Intro/index";
-import News from "./New/index";
+import News from "./News/index";
 import SubIntro from "./SubIntro/index";
 import About from "./About/index";
 import Admissions from "./Admissions/index";

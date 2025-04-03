@@ -18,7 +18,7 @@ const Intro = () => {
         <div className="intro" id="intro">
             <div className="container mt-5">
                 <div className="row flex-nowrap">
-                    <div className="col-md-5 mt-5">
+                    <div className="col-md-5 mt-5 mx-5">
                         <h2
                             data-aos="fade-right"
                             className="intro-title text-primary"
@@ -37,23 +37,24 @@ const Intro = () => {
                         </p>
                     </div>
                     <div className="col-md-7 intro-iframe" ref={videoRef}>
-                        {/* <img
-                            src={IntroImage}
-                            alt="Intro"
-                            className="intro-image"
-                        /> */}
                         <iframe
                             data-aos="fade-left"
                             width="100%"
                             height="315"
-                            src="https://www.youtube.com/embed/WTcufUwIz5Y?si=rrCmHGPejVVQ_gxI"
+                            src="https://www.youtube.com/embed/WTcufUwIz5Y?si=rrCmHGPejVVQ_gxI&mute=1"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen
                         ></iframe>
-                        <video src={IntroImage} autoPlay muted loop></video>
+                        <video
+                            src={IntroImage}
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                        ></video>
                     </div>
                 </div>
             </div>
